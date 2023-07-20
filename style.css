@@ -107,7 +107,7 @@ h3{
 
 .video-lebaran div video{
     width: 520px;
-    height: 280px;
+    height: 320px;
 }
 
 .foto-lebaran{
@@ -130,7 +130,7 @@ h3{
 
 .foto-lebaran div img{
     width: 520px;
-    height: 280px;
+    height: 320px;
 }
 
 
@@ -143,21 +143,69 @@ h3{
 /* ==================================================================================== */
 /* pengaturan untuk tablet */
 @media screen and (min-width: 721px) and (max-width: 1080px){
-    #header{
-        background-color: aliceblue;
-        width: 100%;
-        height: 250px;
+    body{
+        background-color: aquamarine;
     }
-    
-    #siswa div{
-        width: 200px;
-        height: auto;
-        background-color: antiquewhite;
-        border: 3px solid black;
-        display: inline-block;
+    /* untuk memastikan */
+
+    .daftar {
+        display: none;
+        width: 90%;
+        height: 2850px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid black;
         margin-left: auto;
         margin-right: auto;
-        font-size: 10px;
+    }
+
+    .video-lebaran div{
+        background-color: aquamarine;
+        border: 2px solid black;
+        display: inline-block;
+        width: 90%;
+        height: 390px;
+    }
+
+
+    .video-lebaran{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 870px;
+    }
+
+    .video-lebaran div video{
+        width: 640px;
+        height: 350px;
+    }
+
+    .foto-lebaran div{
+        background-color: aquamarine;
+        border: 2px solid black;
+        display: inline-block;
+        width: 90%;
+        height: 390px;
+    }
+
+    .foto-lebaran{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 400px;
+    }
+
+    .foto-lebaran div img{
+        width: 640px;
+        height: 350px;
+    }
+
+    .table-jadwal-pelajaran{
+        background-color: aquamarine;
+    }
+
+    #siswa div{
+        background-color: aquamarine;
     }
 }
 
@@ -168,16 +216,25 @@ h3{
 /* ==================================================================================== */
 /* pengaturan untuk hp */
 @media screen and (max-width: 720px){
+    body{
+        background-color: lightcyan;
+    }
+    /* untuk memastikan */
+
     #header{
         background-color: aliceblue;
         width: 100%;
         height: 250px;
     }
 
+    .table-jadwal-pelajaran{
+        background-color: lightcyan;
+    }
+
     #siswa div{
         width: 200px;
         height: auto;
-        background-color: antiquewhite;
+        background-color: lightcyan;
         border: 3px solid black;
         display: inline-block;
         margin-left: auto;
@@ -211,7 +268,7 @@ h3{
     }
     
     .video-lebaran div{
-        background-color: antiquewhite;
+        background-color: lightcyan;
         border: 2px solid black;
         display: inline-flexbox;
         width: 90%;
@@ -239,7 +296,7 @@ h3{
     }
     
     .foto-lebaran div{
-        background-color: antiquewhite;
+        background-color: lightcyan;
         border: 2px solid black;
         display: inline-block;
         width: 90%;
