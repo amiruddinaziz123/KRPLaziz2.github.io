@@ -1,0 +1,162 @@
+body{
+    background-color: antiquewhite;
+}
+
+#header{
+    background-color: aliceblue;
+    width: 100%;
+    height: 250px;
+}
+
+#header h2{
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 40px;    
+}
+
+.tulisan-bergerak{
+    background-color: #000000a3;
+}
+
+.tulisan-bergerak p{
+    color: aliceblue;
+    animation: 5s;
+}
+
+h1{
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+#content{
+    width: 100%;
+    height: 180px;
+    background-color: #000000a3;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    width: 200px;
+    height: 50px;
+    border: 5px solid aliceblue;
+    font-family: Consolas;
+}
+
+h3{
+    border-top-style: solid;
+    padding-top: 20px;
+}
+
+.daftar {
+    display: none;
+    width: 90%;
+    height: 1750px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-jadwal-pelajaran{
+    display: inline-block;
+    background-color: antiquewhite;
+}
+
+#siswa{
+    width: 100%;
+    height: auto;
+}
+
+#siswa div{
+    width: 250px;
+    height: auto;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#siswa div ul li{
+    text-align: left;
+}
+
+.video-lebaran{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+}
+
+.video-lebaran div{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    height: 90%;
+}
+
+.video-lebaran div h3{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* pengaturan untuk tablet */
+@media screen and (min-width: 721px) and (max-width: 1080px){
+    #header{
+        background-color: aliceblue;
+        width: 100%;
+        height: 250px;
+    }
+    
+    #siswa div{
+        width: 200px;
+        height: auto;
+        background-color: antiquewhite;
+        border: 3px solid black;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+    }
+}
+
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* pengaturan untuk hp */
+@media screen and (max-width: 720px){
+    #header{
+        background-color: aliceblue;
+        width: 100%;
+        height: 250px;
+    }
+
+    #siswa div{
+        width: 200px;
+        height: auto;
+        background-color: antiquewhite;
+        border: 3px solid black;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+    }
+}
