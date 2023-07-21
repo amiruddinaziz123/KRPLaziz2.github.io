@@ -1,0 +1,424 @@
+body{
+    background-color: antiquewhite;
+}
+
+#header{
+    background-color: aliceblue;
+    width: 100%;
+    height: 250px;
+}
+
+#header h2{
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 40px;    
+}
+
+.tulisan-bergerak{
+    background-color: #000000a3;
+}
+
+.tulisan-bergerak p{
+    color: aliceblue;
+    animation: 5s;
+}
+
+h1{
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+#content{
+    width: 100%;
+    height: 180px;
+    background-color: #000000a3;
+}
+
+.show-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    width: 200px;
+    height: 50px;
+    border: 5px solid aliceblue;
+    font-family: Consolas;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.029);  
+    border: 1px solid aliceblue;
+    color: white;
+}
+
+.quit-button{
+    width: 60px;
+    height: 60px;
+    position: inherit;
+    display: block;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #000000a3;
+    margin-left: auto;
+    margin-right: 20px;
+    padding-bottom: 5px;
+}
+
+.quit-button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.364);
+    border: 1px solid black;
+}
+
+h3{
+    border-top-style: solid;
+    padding-top: 20px;
+}
+
+.daftar {
+    display: none;
+    width: 90%;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.daftar-2{
+    display: block;
+    width: 90%;
+    height: 1280px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-jadwal-pelajaran{
+    display: inline-block;
+    background-color: antiquewhite;
+}
+
+#siswa{
+    width: 100%;
+    height: auto;
+}
+
+#siswa div{
+    width: 250px;
+    height: auto;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#siswa div ul li{
+    text-align: left;
+}
+
+.video-lebaran{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+}
+
+.video-lebaran div{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    height: 90%;
+}
+
+.video-lebaran div h3{
+    padding-top: 10px;
+}
+
+.video-lebaran div video{
+    width: 520px;
+    height: 320px;
+}
+
+.foto-lebaran{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+}
+
+.foto-lebaran div{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    height: 90%;
+}
+
+.foto-lebaran div h3{
+    padding-top: 10px;
+}
+
+.foto-lebaran div img{
+    width: 520px;
+    height: 320px;
+}
+
+
+
+
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* pengaturan untuk tablet */
+@media screen and (min-width: 721px) and (max-width: 1080px){
+    body{
+        background-color: aquamarine;
+    }
+    /* untuk memastikan */
+
+    .daftar {
+        display: none;
+        width: 90%;
+        height: 535px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .daftar-2{
+        display: block;
+        width: 90%;
+        height: 2380px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #siswa div{
+        width: 250px;
+        height: auto;
+        background-color: antiquewhite;
+        border: 3px solid black;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .video-lebaran div{
+        background-color: aquamarine;
+        border: 2px solid black;
+        display: inline-block;
+        width: 90%;
+        height: 390px;
+    }
+
+
+    .video-lebaran{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 870px;
+    }
+
+    .video-lebaran div video{
+        width: 640px;
+        height: 350px;
+    }
+
+    .quit-button{
+        width: 40px;
+        height: 40px;
+        position: inherit;
+        display: block;
+        font-size: 25px;
+        color: red;
+        background-color: #000000a3;
+        margin-left: auto;
+        margin-right: 20px;
+        padding-bottom: 5px;
+    }
+
+    .foto-lebaran div{
+        background-color: aquamarine;
+        border: 2px solid black;
+        display: inline-block;
+        width: 90%;
+        height: 390px;
+    }
+
+    .foto-lebaran{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 400px;
+    }
+
+    .foto-lebaran div img{
+        width: 640px;
+        height: 350px;
+    }
+
+    .table-jadwal-pelajaran{
+        background-color: aquamarine;
+    }
+
+    #siswa div{
+        background-color: aquamarine;
+    }
+}
+
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* pengaturan untuk hp */
+@media screen and (max-width: 720px){
+    body{
+        background-color: lightcyan;
+    }
+    /* untuk memastikan */
+
+    #header{
+        background-color: aliceblue;
+        width: 100%;
+        height: 250px;
+    }
+
+    .table-jadwal-pelajaran{
+        background-color: lightcyan;
+    }
+
+    #siswa div{
+        width: 200px;
+        height: auto;
+        background-color: lightcyan;
+        border: 3px solid black;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .quit-button{
+        width: 30px;
+        height: 30px;
+        position: inherit;
+        display: block;
+        font-size: 20px;
+        color: red;
+        background-color: #000000a3;
+        margin-left: auto;
+        margin-right: 20px;
+        padding-bottom: 5px;
+    }
+
+    table{
+        font-size: 10px;
+        size: 500px;
+    }
+
+    .daftar {
+        display: none;
+        width: 90%;
+        height: 260px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .daftar-2{
+        display: block;
+        width: 90%;
+        height: 1750px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .video-lebaran{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 200px;
+    }
+    
+    .video-lebaran div{
+        background-color: lightcyan;
+        border: 2px solid black;
+        display: inline-flexbox;
+        width: 90%;
+        height: 90%;
+    }
+    
+    .video-lebaran div h3{
+        padding-top: 10px;
+    }
+    
+    .video-lebaran div video{
+        width: 260px;
+        height: 140px;
+    }
+
+
+
+
+
+
+    .foto-lebaran{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 200px;
+    }
+    
+    .foto-lebaran div{
+        background-color: lightcyan;
+        border: 2px solid black;
+        display: inline-block;
+        width: 90%;
+        height: 90%;
+    }
+    
+    .foto-lebaran div h3{
+        padding-top: 10px;
+    }
+
+    .foto-lebaran div img{
+        width: 260px;
+        height: 140px;
+    }
+
+    .mit-foto-1{
+        padding-top: 250px;
+    }
+
+    h3{
+        border-top-style: none;
+        padding-top: 0px;
+    }
+}
