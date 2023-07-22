@@ -504,3 +504,49 @@ h3{
     }
 
 }
+
+
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* pengaturan untuk support laptop punya e Reno*/
+/* khusus untuk Reno */
+@media screen and (min-width: 1081px) and (max-width: 1300px){
+
+    .jadwal-piket-kelas div{
+        width: 200px;
+        height: 200px;
+    }
+
+    #siswa div{
+        width: 200px;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    #siswa div ul li{
+        text-align: left;
+        margin-left: -12px;
+        margin-top: 8px;
+        border-bottom: 1px solid black;
+        margin-right: 10px;
+    }
+
+    .video-lebaran div video{
+        width: 430px;
+        height: 320px;
+        /* display: none; */
+    }
+
+    .foto-lebaran div img{
+        width: 430px;
+        height: 300px;
+        /* display: none; */
+    }
+
+    .foto-lebaran div h3{
+        margin-top: 38px;
+    }
+}
