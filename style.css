@@ -513,7 +513,7 @@ h3{
 /* ==================================================================================== */
 /* pengaturan untuk support laptop punya e Reno*/
 /* khusus untuk Reno */
-@media screen and (min-width: 1081px) and (max-width: 1300px){
+@media screen and (min-width: 1081px) and (max-width: 1600px){
 
     .jadwal-piket-kelas div{
         width: 200px;
